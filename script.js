@@ -7,13 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
         en: {
             name: 'Bumbu Shoji',
             currentAffiliation: 'The University of Tokyo, Graduate School of Medicine, Department of Medical Informatics',
-            hobbies: 'Dance, Programming',
+            hobbies: 'Dance, Live Coding',
             email: 'bumbu.shoji@gmail.com',
             linkedin: 'https://www.linkedin.com/in/bumbuboon',
             github: 'https://github.com/bumbuboon',
             summaryTitle: 'Mission',
             summaryText: 'To create a society where everyone can live a healthy life, both physically and mentally, while balancing scientific curiosity and social contribution.',
-            experienceTitle: 'Work Experience',
+            selfIntroTitle: 'Self-Introduction',
+            selfIntroText: 'I am currently aiming to start a business within this fiscal year and am exploring various ideas. I believe that the ability to launch my own business is indispensable for realizing my mission of \'balancing curiosity and social contribution.\'<br><br>At the university, while studying a wide range of public health fields, I am exploring ways to contribute to improving people\'s health and well-being using AI.<br><br>In terms of research, I am deeply interested in technologies that simulate human behavior using large language models (LLMs) and AI, and I see great potential in the intersection of technology and society. I hope to further enhance my ability to conduct autonomous research by advancing to a doctoral program.',
             jobs: [
                 {
                     title: 'Contract Researcher/R&D',
@@ -65,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             linkedin: 'https://www.linkedin.com/in/bumbuboon',
             github: 'https://github.com/bumbuboon',
             summaryTitle: 'Mission',
-            summaryText: '科学的好奇心と社会貢献を両立させながら、すべての人が心身ともに健やかに生活できる社会を創る',
+            summaryText: '好奇心と社会貢献を両立させながら、すべての人が心身ともに健やかに生活できる社会を創る',
             experienceTitle: '職歴',
             jobs: [
                 {
@@ -124,6 +125,9 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('github').textContent = data.github;
         document.getElementById('summary-title').textContent = data.summaryTitle;
         document.getElementById('summary-text').textContent = data.summaryText;
+
+        document.getElementById('self-intro-title').textContent = data.selfIntroTitle;
+        document.getElementById('self-intro-text').innerHTML = data.selfIntroText;
 
         // Work Experience
         document.getElementById('experience-title').textContent = data.experienceTitle;
