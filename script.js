@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             ],
             researchTitle: 'Research',
-            researchContent: 'Bachelor's thesis: 'Simulation of behavioral trends during the COVID-19 pandemic using large-scale language models.' I tested whether LLM can reproduce the results of social surveys. Specifically, I used data from a questionnaire on 'preventive behaviors for COVID-19' conducted for Japanese people, and evaluated the answers created by LLM by comparing them with the actual survey answers.<br><br>Currently, I am also interested in Multi-Agent Simulation in public health using AI.',
+            researchContent: `Bachelor's thesis: 'Simulation of behavioral trends during the COVID-19 pandemic using large-scale language models.' I tested whether LLM can reproduce the results of social surveys. Specifically, I used data from a questionnaire on 'preventive behaviors for COVID-19' conducted for Japanese people, and evaluated the answers created by LLM by comparing them with the actual survey answers.<br><br>Currently, I am also interested in Multi-Agent Simulation in public health using AI.`,
             languagesTitle: 'Languages',
             languages: 'Japanese: Native<br>English: Business level'
         },
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             ],
             researchTitle: '研究内容',
-            researchContent: '学士卒業研究「大規模言語モデルを活用したコロナ禍における行動傾向のシミュレーション」<br>LLMを使って「社会調査の結果」を再現できるかどうかを試しました。具体的には、日本人を対象に行われた「COVID‑19の予防行動」に関するアンケートのデータを用い、LLMが作る回答と実際の調査回答を比べて評価しました。<br><br>現在は、AIを用いた公衆衛生上のMultiAgentSimulationに興味があります。',
+            researchContent: `学士卒業研究「大規模言語モデルを活用したコロナ禍における行動傾向のシミュレーション」<br>LLMを使って「社会調査の結果」を再現できるかどうかを試しました。具体的には、日本人を対象に行われた「COVID‑19の予防行動」に関するアンケートのデータを用い、LLMが作る回答と実際の調査回答を比べて評価しました。<br><br>現在は、AIを用いた公衆衛生上のMultiAgentSimulationに興味があります。`,
             languagesTitle: '言語',
             languages: '日本語: 母語<br>英語: ビジネスレベル'
         }
