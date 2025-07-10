@@ -6,9 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const content = {
         en: {
             name: 'Bumbu Shoji',
+            currentAffiliation: 'The University of Tokyo, Graduate School of Medicine, Department of Medical Informatics',
+            hobbies: 'Dance, Programming',
             email: 'bumbu.shoji@gmail.com',
-            linkedin: 'linkedin.com/in/bumbu-shoji-31a799270/',
-            github: 'github.com/bumbuboon',
+            linkedin: 'https://www.linkedin.com/in/bumbu-shoji-31a799270/',
+            github: 'https://github.com/bumbuboon',
             summaryTitle: 'Mission',
             summaryText: 'To create a society where everyone can live a healthy life, both physically and mentally, while balancing scientific curiosity and social contribution.',
             experienceTitle: 'Work Experience',
@@ -51,15 +53,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             ],
             researchTitle: 'Research',
-            researchContent: 'Bachelor\'s thesis: \'Simulation of behavioral trends during the COVID-19 pandemic using large-scale language models.\' I tested whether LLM can reproduce the results of social surveys. Specifically, I used data from a questionnaire on \'preventive behaviors for COVID-19\' conducted for Japanese people, and evaluated the answers created by LLM by comparing them with the actual survey answers.',
+            researchContent: 'Bachelor's thesis: 'Simulation of behavioral trends during the COVID-19 pandemic using large-scale language models.' I tested whether LLM can reproduce the results of social surveys. Specifically, I used data from a questionnaire on 'preventive behaviors for COVID-19' conducted for Japanese people, and evaluated the answers created by LLM by comparing them with the actual survey answers.<br><br>Currently, I am also interested in Multi-Agent Simulation in public health using AI.',
             languagesTitle: 'Languages',
             languages: 'Japanese: Native<br>English: Business level'
         },
         jp: {
             name: '庄司文武',
+            currentAffiliation: '東京大学医学系研究科 医療情報学教室',
+            hobbies: 'ダンス、プログラミング',
             email: 'bumbu.shoji@gmail.com',
-            linkedin: 'linkedin.com/in/bumbu-shoji-31a799270/',
-            github: 'github.com/bumbuboon',
+            linkedin: 'https://www.linkedin.com/in/bumbu-shoji-31a799270/',
+            github: 'https://github.com/bumbuboon',
             summaryTitle: 'Mission',
             summaryText: '科学的好奇心と社会貢献を両立させながら、すべての人が心身ともに健やかに生活できる社会を創る',
             experienceTitle: '職歴',
@@ -102,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             ],
             researchTitle: '研究内容',
-            researchContent: '学士卒業研究「大規模言語モデルを活用したコロナ禍における行動傾向のシミュレーション」<br>LLMを使って「社会調査の結果」を再現できるかどうかを試しました。具体的には、日本人を対象に行われた「COVID‑19の予防行動」に関するアンケートのデータを用い、LLMが作る回答と実際の調査回答を比べて評価しました。',
+            researchContent: '学士卒業研究「大規模言語モデルを活用したコロナ禍における行動傾向のシミュレーション」<br>LLMを使って「社会調査の結果」を再現できるかどうかを試しました。具体的には、日本人を対象に行われた「COVID‑19の予防行動」に関するアンケートのデータを用い、LLMが作る回答と実際の調査回答を比べて評価しました。<br><br>現在は、AIを用いた公衆衛生上のMultiAgentSimulationに興味があります。',
             languagesTitle: '言語',
             languages: '日本語: 母語<br>英語: ビジネスレベル'
         }
@@ -113,6 +117,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.documentElement.lang = lang;
         const data = content[lang];
         document.getElementById('name').textContent = data.name;
+        document.getElementById('current-affiliation').textContent = data.currentAffiliation;
+        document.getElementById('hobbies').textContent = data.hobbies;
         document.getElementById('email').textContent = data.email;
         document.getElementById('linkedin').textContent = data.linkedin;
         document.getElementById('github').textContent = data.github;
