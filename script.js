@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         en: {
             name: 'Bumbu Shoji',
             currentAffiliation: 'The University of Tokyo, Graduate School of Medicine, Department of Medical Informatics',
-            hobbies: 'Dance, Live Coding',
+            hobbies: 'Dance, Vibe Coding',
             email: 'bumbu.shoji@gmail.com',
             linkedin: 'https://www.linkedin.com/in/bumbuboon',
             github: 'https://github.com/bumbuboon',
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
         jp: {
             name: '庄司文武',
             currentAffiliation: '東京大学医学系研究科 医療情報学教室',
-            hobbies: 'ダンス、プログラミング',
+            hobbies: 'ダンス、バイブコーディング',
             email: 'bumbu.shoji@gmail.com',
             linkedin: 'https://www.linkedin.com/in/bumbuboon',
             github: 'https://github.com/bumbuboon',
