@@ -77,19 +77,19 @@ document.addEventListener('DOMContentLoaded', () => {
                     title: '業務委託/R&D',
                     company: '東大松尾研究室',
                     period: '2025年6月〜現在',
-                    description: '- 医療LLMの開発<br>- データベースAIエージェントの開発'
+                    description: '医療LLMの開発<br>データベースAIエージェントの開発'
                 },
                 {
                     title: 'インターン/R&D',
                     company: '株式会社カラクリ',
                     period: '2024年7月〜現在',
-                    description: '- LLMに関する論文調査および実装<br>- コンピューターユースに関する論文執筆'
+                    description: 'LLMに関する論文調査および実装<br>コンピューターユースに関する論文執筆'
                 },
                 {
                     title: 'インターン/機械学習エンジニア',
                     company: '株式会社ゼロボード',
                     period: '2023年9月〜2024年6月',
-                    description: '- 自社サイト内でのRAGを用いたチャットボットの改善<br>- LLMに関する論文調査及び実装'
+                    description: '自社サイト内でのRAGを用いたチャットボットの改善<br>gitLLMに関する論文調査及び実装'
                 }
             ],
             educationTitle: '学歴',
