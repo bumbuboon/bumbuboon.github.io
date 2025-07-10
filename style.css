@@ -94,3 +94,12 @@ ul {
 #download-pdf:hover {
     background: #218838;
 }
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 1rem;
+    border: 3px solid #007bff;
+}
